@@ -26,6 +26,7 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/leandro-driguez/leetcode/tree/master/0207-course-schedule) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -38,4 +39,16 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/leandro-driguez/leetcode/tree/master/0207-course-schedule) |
+## String
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+## Design
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+## Trie
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
