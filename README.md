@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -25,6 +26,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Depth-First Search
@@ -91,4 +93,16 @@
 |  |
 | ------- |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
+## Two Pointers
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
