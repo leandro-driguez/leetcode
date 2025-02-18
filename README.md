@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Hash Table
@@ -42,6 +43,7 @@
 ## String
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Design
 |  |
@@ -51,4 +53,8 @@
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+## Simulation
+|  |
+| ------- |
+| [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 <!---LeetCode Topics End-->
