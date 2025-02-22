@@ -59,6 +59,7 @@
 ## String
 |  |
 | ------- |
+| [0058-length-of-last-word](https://github.com/leandro-driguez/leetcode/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
