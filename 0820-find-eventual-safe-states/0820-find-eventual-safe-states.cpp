@@ -28,16 +28,13 @@ public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n = graph.size();
         vector<int> visited(n, 0);
-
-        for (int i = 0; i < n; i++) {
-            dfsVisit(graph, i, visited);
-        }
-
         vector<int> safeStates;
+
         for (int i = 0; i < n; i++) {
-            if (visited[i] == 2)
+            if (dfsVisit(graph, i, visited))
                 safeStates.push_back(i);
         }
+
         return safeStates;
     }
 };
