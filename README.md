@@ -9,6 +9,7 @@
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/leandro-driguez/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -17,6 +18,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -44,6 +46,7 @@
 | [0210-course-schedule-ii](https://github.com/leandro-driguez/leetcode/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0547-number-of-provinces](https://github.com/leandro-driguez/leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0820-find-eventual-safe-states](https://github.com/leandro-driguez/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/leandro-driguez/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -54,6 +57,7 @@
 | [0207-course-schedule](https://github.com/leandro-driguez/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/leandro-driguez/leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/leandro-driguez/leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0820-find-eventual-safe-states](https://github.com/leandro-driguez/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/leandro-driguez/leetcode/tree/master/0871-keys-and-rooms) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -80,6 +84,7 @@
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 ## Design
 |  |
 | ------- |
@@ -107,6 +112,7 @@
 | ------- |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/leandro-driguez/leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 ## Matrix
 |  |
 | ------- |
@@ -133,4 +139,8 @@
 |  |
 | ------- |
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
+## Sorting
+|  |
+| ------- |
+| [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 <!---LeetCode Topics End-->
