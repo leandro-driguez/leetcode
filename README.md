@@ -6,6 +6,7 @@
 | ------- |
 | [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/leandro-driguez/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -35,6 +36,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/leandro-driguez/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/leandro-driguez/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
