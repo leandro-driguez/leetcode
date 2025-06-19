@@ -14,6 +14,7 @@
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/leandro-driguez/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/leandro-driguez/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Hash Table
 |  |
@@ -121,6 +122,7 @@
 ## Greedy
 |  |
 | ------- |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Two Pointers
 |  |
@@ -143,4 +145,5 @@
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 <!---LeetCode Topics End-->
