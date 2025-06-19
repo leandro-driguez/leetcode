@@ -1,41 +1,33 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> reverseGraph(numCourses);
-        vector<int> indegree(numCourses, 0);
-        for (int i = 0, pre, crs; i < prerequisites.size(); i++) {
-            crs = prerequisites[i][0];
-            pre = prerequisites[i][1];
-            reverseGraph[pre].push_back(crs);
-            indegree[crs]++;
+        vector<vector<int>> graph(numCourses, vector<int>());
+        vector<int> degree(numCourses);
+        for (int i = 0, crs, preq; i < prerequisites.size(); i++) {
+            crs  = prerequisites[i][0];
+            preq = prerequisites[i][1];
+            graph[preq].push_back(crs);
+            degree[crs]++;
         }
 
-        queue<int> noPrereq;
+        stack<int> coursesReady;
         for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0)
-                noPrereq.push(i);
+            if (degree[i] == 0)
+                coursesReady.push(i);
         }
-        if (noPrereq.empty())
-            return false;
 
-        while (!noPrereq.empty()) {
-            int course = noPrereq.front();
-            noPrereq.pop();
+        while (!coursesReady.empty()) {
+            int preq = coursesReady.top();
+            coursesReady.pop();
+            numCourses--;
 
-            for (int nextCourse: reverseGraph[course]) {
-                indegree[nextCourse]--;
-                if (indegree[nextCourse] == 0)
-                    noPrereq.push(nextCourse);
-                if (indegree[nextCourse] < 0)
-                    return false;
+            for (int crs: graph[preq]) {
+                degree[crs]--;
+                if (degree[crs] == 0)
+                    coursesReady.push(crs);
             }
         }
 
-        for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] > 0)
-                return false;
-        }
-
-        return true;
+        return numCourses == 0;
     }
 };
