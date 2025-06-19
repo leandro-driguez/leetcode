@@ -143,9 +143,18 @@
 |  |
 | ------- |
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
 ## Sorting
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
+## Recursion
+|  |
+| ------- |
+| [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
 <!---LeetCode Topics End-->
