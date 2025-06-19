@@ -36,6 +36,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
+| [0095-unique-binary-search-trees-ii](https://github.com/leandro-driguez/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leandro-driguez/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -103,11 +104,13 @@
 ## Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/leandro-driguez/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/leandro-driguez/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Union Find
@@ -157,4 +160,12 @@
 |  |
 | ------- |
 | [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
+## Backtracking
+|  |
+| ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/leandro-driguez/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/leandro-driguez/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 <!---LeetCode Topics End-->
