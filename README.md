@@ -14,6 +14,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0414-third-maximum-number](https://github.com/leandro-driguez/leetcode/tree/master/0414-third-maximum-number) |
 | [0487-max-consecutive-ones-ii](https://github.com/leandro-driguez/leetcode/tree/master/0487-max-consecutive-ones-ii) |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
@@ -26,6 +27,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
@@ -82,6 +84,7 @@
 | [0207-course-schedule](https://github.com/leandro-driguez/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/leandro-driguez/leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/leandro-driguez/leetcode/tree/master/0547-number-of-provinces) |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0820-find-eventual-safe-states](https://github.com/leandro-driguez/leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0871-keys-and-rooms](https://github.com/leandro-driguez/leetcode/tree/master/0871-keys-and-rooms) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
@@ -90,6 +93,7 @@
 | ------- |
 | [0207-course-schedule](https://github.com/leandro-driguez/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/leandro-driguez/leetcode/tree/master/0210-course-schedule-ii) |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0820-find-eventual-safe-states](https://github.com/leandro-driguez/leetcode/tree/master/0820-find-eventual-safe-states) |
 ## String
 |  |
@@ -98,11 +102,13 @@
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 ## Design
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/leandro-driguez/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 ## Trie
 |  |
 | ------- |
@@ -134,6 +140,7 @@
 | ------- |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/leandro-driguez/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0631-design-excel-sum-formula](https://github.com/leandro-driguez/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/leandro-driguez/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Greedy
 |  |
