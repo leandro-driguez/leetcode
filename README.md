@@ -8,6 +8,7 @@
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leandro-driguez/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
+| [0240-search-a-2d-matrix-ii](https://github.com/leandro-driguez/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -38,6 +39,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/leandro-driguez/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 ## Dynamic Programming
 |  |
@@ -131,6 +133,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
+| [0240-search-a-2d-matrix-ii](https://github.com/leandro-driguez/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/leandro-driguez/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Greedy
 |  |
@@ -206,6 +209,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/leandro-driguez/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
