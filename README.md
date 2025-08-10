@@ -17,6 +17,7 @@
 | [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/leandro-driguez/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/leandro-driguez/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/leandro-driguez/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -135,6 +136,7 @@
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/leandro-driguez/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Two Pointers
@@ -196,6 +198,7 @@
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/leandro-driguez/leetcode/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Prefix Sum
 |  |
 | ------- |
