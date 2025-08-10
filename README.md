@@ -22,11 +22,13 @@
 | ------- |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Counting
 |  |
 | ------- |
+| [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 ## Binary Search
 |  |
@@ -147,10 +149,12 @@
 | ------- |
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
+| [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
 ## Sorting
 |  |
 | ------- |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
+| [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 ## Bit Manipulation
 |  |
@@ -168,4 +172,8 @@
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/leandro-driguez/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
+## Enumeration
+|  |
+| ------- |
+| [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
 <!---LeetCode Topics End-->
