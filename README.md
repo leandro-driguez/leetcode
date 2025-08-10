@@ -8,6 +8,7 @@
 | [0068-text-justification](https://github.com/leandro-driguez/leetcode/tree/master/0068-text-justification) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/leandro-driguez/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/leandro-driguez/leetcode/tree/master/0200-number-of-islands) |
+| [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/leandro-driguez/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/leandro-driguez/leetcode/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0414-third-maximum-number](https://github.com/leandro-driguez/leetcode/tree/master/0414-third-maximum-number) |
@@ -132,12 +133,14 @@
 ## Greedy
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Two Pointers
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/leandro-driguez/leetcode/tree/master/0042-trapping-rain-water) |
+| [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 ## Stack
 |  |
 | ------- |
@@ -156,6 +159,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0414-third-maximum-number](https://github.com/leandro-driguez/leetcode/tree/master/0414-third-maximum-number) |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
@@ -184,4 +188,12 @@
 |  |
 | ------- |
 | [0487-max-consecutive-ones-ii](https://github.com/leandro-driguez/leetcode/tree/master/0487-max-consecutive-ones-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
 <!---LeetCode Topics End-->
