@@ -14,6 +14,7 @@
 | [0414-third-maximum-number](https://github.com/leandro-driguez/leetcode/tree/master/0414-third-maximum-number) |
 | [0487-max-consecutive-ones-ii](https://github.com/leandro-driguez/leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1039-find-the-town-judge](https://github.com/leandro-driguez/leetcode/tree/master/1039-find-the-town-judge) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/leandro-driguez/leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/leandro-driguez/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -156,6 +157,7 @@
 | [0227-basic-calculator-ii](https://github.com/leandro-driguez/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
 | [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -163,6 +165,7 @@
 | [0414-third-maximum-number](https://github.com/leandro-driguez/leetcode/tree/master/0414-third-maximum-number) |
 | [0721-accounts-merge](https://github.com/leandro-driguez/leetcode/tree/master/0721-accounts-merge) |
 | [0900-reordered-power-of-2](https://github.com/leandro-driguez/leetcode/tree/master/0900-reordered-power-of-2) |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 ## Bit Manipulation
 |  |
@@ -192,8 +195,21 @@
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/leandro-driguez/leetcode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
