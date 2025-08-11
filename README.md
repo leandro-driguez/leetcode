@@ -23,6 +23,7 @@
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/leandro-driguez/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/leandro-driguez/leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/leandro-driguez/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
+| [2529-range-product-queries-of-powers](https://github.com/leandro-driguez/leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2780-make-costs-of-paths-equal-in-a-binary-tree](https://github.com/leandro-driguez/leetcode/tree/master/2780-make-costs-of-paths-equal-in-a-binary-tree) |
 ## Hash Table
 |  |
@@ -183,6 +184,7 @@
 |  |
 | ------- |
 | [0795-k-th-symbol-in-grammar](https://github.com/leandro-driguez/leetcode/tree/master/0795-k-th-symbol-in-grammar) |
+| [2529-range-product-queries-of-powers](https://github.com/leandro-driguez/leetcode/tree/master/2529-range-product-queries-of-powers) |
 ## Recursion
 |  |
 | ------- |
@@ -213,6 +215,7 @@
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/leandro-driguez/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [2529-range-product-queries-of-powers](https://github.com/leandro-driguez/leetcode/tree/master/2529-range-product-queries-of-powers) |
 ## Divide and Conquer
 |  |
 | ------- |
