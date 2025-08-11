@@ -1,177 +1,149 @@
+class Cell {
+public:
+    vector<pair<int,int>>* dependencies;
+    vector<pair<int,int>>* commitments;
+    int Value;
+
+    Cell(vector<pair<int,int>>* dependencies) {
+        this->dependencies = dependencies;
+        commitments = new vector<pair<int,int>>();
+        Value = 0;
+    }
+
+    void addCommitment(pair<int,int> cell) {
+        this->commitments->push_back(cell);
+    }
+
+    void removeCommitment(pair<int,int> cell) {
+        auto it = find(this->commitments->begin(), this->commitments->end(), cell);
+        if (it != this->commitments->end()) {
+            this->commitments->erase(it);
+        }
+    }
+
+    void addDependency(pair<int,int> cell) {
+        this->dependencies->push_back(cell);
+    }
+
+    void removeAllDependencies() {
+        this->dependencies->clear();
+    }
+};
+
+struct Token {
+    char letter;
+    int number;
+};
+
+struct Entry {
+    Token first;
+    std::optional<Token> second;
+};
+
 class Excel {
 private:
-    vector<vector<int>> matrix;
-    unordered_map<int,unordered_map<int,vector<pair<int,int>>*>> unUpdated;
-    unordered_map<int,unordered_map<int,vector<pair<int,int>>*>> unUpdatedReverse;
-    unordered_map<int,unordered_map<int,vector<string>*>> sums;
+    vector<vector<Cell>> Sheet;
+
+    void recalculate(pair<int,int>& cell, bool updateValues) {
+        cout<<cell.first<<","<<cell.second<<endl;
+        int newValue = 0;
+
+        for(auto dep: *Sheet[cell.first][cell.second].dependencies) {
+            newValue += Sheet[dep.first][dep.second].Value;
+        }
+
+        if (newValue != Sheet[cell.first][cell.second].Value || updateValues) {
+            Sheet[cell.first][cell.second].Value = newValue;
+
+            for(auto dep: *Sheet[cell.first][cell.second].commitments) {
+                recalculate(dep, false);
+            }
+        }
+    }
+
+    std::optional<Entry> parse_one(const std::string& s) {
+        static const std::regex re(R"(^([A-Z])([0-9]+)(?::([A-Z])([0-9]+))?$)");
+        std::smatch m;
+        if (!std::regex_match(s, m, re)) return std::nullopt;
+
+        Entry e{
+            Token{ m[1].str()[0], std::stoi(m[2].str()) },
+            std::nullopt
+        };
+        if (m[3].matched) {
+            e.second = Token{ m[3].str()[0], std::stoi(m[4].str()) };
+        }
+        return e;
+    }
+
+    vector<pair<int,int>>* getDependentCells(vector<string>& numbers) {
+        auto dependencies = new vector<pair<int,int>>();
+
+        for (const auto& s : numbers) {
+            auto parsed = parse_one(s);
+            const Entry& e = *parsed;
+            if (e.second) {
+                for (int i = e.first.number-1; i < e.second->number; i++) {
+                    for (int j = e.first.letter-'A'; j <= e.second->letter-'A'; j++) {
+                        dependencies->push_back(make_pair(i, j));
+                    }
+                }
+            } else {
+                dependencies->push_back(make_pair(e.first.number-1, e.first.letter-'A'));
+            }
+        }
+
+        return dependencies;
+    }
 
 public:
     Excel(int height, char width) {
-        matrix = vector<vector<int>>(height, vector<int>(width-'A'+1, 0));
+        Sheet = vector<vector<Cell>>();
+        for (int i = 0; i < height; i++) {
+            vector<Cell> row;
+            for (int j = 0; j < width-'A'+1; j++) {
+                row.push_back(Cell(new vector<pair<int,int>>({make_pair(i, j)})));
+            }
+            Sheet.push_back(row);
+        }
     }
     
     void set(int row, char column, int val) {
-        matrix[row-1][column-'A'] = val;
-        if (unUpdated[row-1][column-'A'] != nullptr) {
-            for(auto pairs: *unUpdated[row-1][column-'A']){
-                int x = pairs.first;
-                int y = pairs.second;
-                matrix[x][y] = -1001;
-            }
+        cout<<"set:"<<row<<","<<column<<endl;
+        Cell* currentCell = &Sheet[row-1][column-'A'];
+        
+        for(auto cell: *currentCell->dependencies) {
+            auto tmp = make_pair(row-1, column-'A');
+            Sheet[cell.first][cell.second].removeCommitment(tmp);
         }
-        if (unUpdatedReverse[row-1][column-'A'] != nullptr) {
-            for(auto pairs: *unUpdatedReverse[row-1][column-'A']){
-                int x = pairs.first;
-                int y = pairs.second;
-                
-                auto it = find(unUpdated[x][y]->begin(), unUpdated[x][y]->end(), make_pair(row-1, column-'A'));
-                if (it != unUpdated[x][y]->end())
-                    unUpdated[x][y]->erase(it);
-            }
-            unUpdatedReverse[row-1][column-'A'] = nullptr;
-        }
+
+        currentCell->removeAllDependencies();
+
+        bool updateValues = (currentCell->Value != val);
+        currentCell->Value = val;
+        
+        auto cell = make_pair(row-1, column-'A');
+        currentCell->addDependency(cell);
+        
+        recalculate(cell, updateValues);
     }
     
     int get(int row, char column) {
-        // if (row==1 && column=='C'){
-        // for(auto row: matrix) {
-        //     for(int x: row) {
-        //         cout<<x<<" ";
-        //     }
-        //     cout<<endl;
-        // }
-        // }
-        if (row==1 && column=='B'){
-        for(auto row: matrix) {
-            for(int x: row) {
-                cout<<x<<" ";
-            }
-            cout<<endl;
-        }
-        cout<<endl<<endl;
-        }
-        
-        if (matrix[row-1][column-'A'] == -1001) {
-            int totalValue = 0;
-            vector<string> numbers = *sums[row-1][column-'A'];
-            
-            for (int  i = 0; i<numbers.size(); i++) {
-                if (numbers[i].size() > 3) {
-                    int j = 0;
-                    int col1 = numbers[i][j++] - 'A';
-                    int row1 = numbers[i][j++] - '0';
-                    if (numbers[i][j] != ':') {
-                        row1 *= 10;
-                        row1 += numbers[i][j++] - '0';
-                    }
-                    j++;
-
-                    int col2 = numbers[i][j++] - 'A';
-                    int row2 = numbers[i][j++] - '0';
-                    if (j < numbers[i].size()) {
-                        row2 *= 10;
-                        row2 += numbers[i][j] - '0';
-                    }
-
-                    for (int k = row1; k <= row2; k++) {
-                        for (int h = col1; h <= col2; h++) {
-                            totalValue += get(k, (char)(h+'A'));
-                        }
-                    }
-                }
-                else {
-                    int row = numbers[i][1] - '0';
-                    
-                    if (numbers[i].size() == 3) {
-                        row *= 10;
-                        row += numbers[i][2] - '0';
-                    }
-
-                    totalValue += get(row, numbers[i][0]);
-                }
-            }
-            
-            matrix[row-1][column-'A'] = totalValue;
-            if (unUpdated[row-1][column-'A'] != nullptr) {
-            for(auto pairs: *unUpdated[row-1][column-'A']){
-                int x = pairs.first;
-                int y = pairs.second;
-                matrix[x][y] = -1001;
-            }
-        }
-        }
-        return matrix[row-1][column-'A'];
+        cout<<"get:"<<row<<","<<column<<endl;
+        return Sheet[row-1][column-'A'].Value;
     }
     
     int sum(int row, char column, vector<string> numbers) {
-        matrix[row-1][column-'A'] = -1001;
-        sums[row-1][column-'A'] = new vector<string>(numbers);
-
-        if (unUpdatedReverse[row-1][column-'A'] != nullptr) {
-            for(auto pairs: *unUpdatedReverse[row-1][column-'A']){
-                int x = pairs.first;
-                int y = pairs.second;
-                
-                auto it = find(unUpdated[x][y]->begin(), unUpdated[x][y]->end(), make_pair(row-1, column-'A'));
-                if (it != unUpdated[x][y]->end())
-                    unUpdated[x][y]->erase(it);
-            }
-            unUpdatedReverse[row-1][column-'A'] = nullptr;
+        cout<<"sum:"<<row<<","<<column<<endl;
+        Sheet[row-1][column-'A'].dependencies = getDependentCells(numbers);
+        
+        for(auto cell: *Sheet[row-1][column-'A'].dependencies) {
+            Sheet[cell.first][cell.second].addCommitment(make_pair(row-1,column-'A'));
         }
 
-        for (int  i = 0; i<numbers.size(); i++) {
-            if (numbers[i].size() > 3) {
-                int j = 0;
-                int col1 = numbers[i][j++] - 'A';
-                int row1 = numbers[i][j++] - '0';
-                if (numbers[i][j] != ':') {
-                    row1 *= 10;
-                    row1 += numbers[i][j++] - '0';
-                }
-                j++;
-
-                int col2 = numbers[i][j++] - 'A';
-                int row2 = numbers[i][j++] - '0';
-                if (j < numbers[i].size()) {
-                    row2 *= 10;
-                    row2 += numbers[i][j] - '0';
-                }
-
-                for (int k = row1; k <= row2; k++) {
-                    for (int h = col1; h <= col2; h++) {
-                        if (unUpdated[k-1][h] == nullptr) {
-                            unUpdated[k-1][h] = new vector<pair<int,int>>();
-                        }
-                        unUpdated[k-1][h]->push_back({row-1,column-'A'});
-
-                        if (unUpdatedReverse[row-1][column-'A'] == nullptr) {
-                            unUpdatedReverse[row-1][column-'A'] = new vector<pair<int,int>>();
-                        }
-                        unUpdatedReverse[row-1][column-'A']->push_back({k-1, h});
-                    }
-                }
-            }
-            else {
-                int row1 = numbers[i][1] - '0';
-                int col1 = numbers[i][0] - 'A';
-                
-                if (numbers[i].size() == 3) {
-                    row1 *= 10;
-                    row1 += numbers[i][2] - '0';
-                }
-
-                if (unUpdated[row1-1][col1] == nullptr) {
-                    unUpdated[row1-1][col1] = new vector<pair<int,int>>();
-                }
-                unUpdated[row1-1][col1]->push_back({row-1,column-'A'});
-
-                if (unUpdatedReverse[row-1][column-'A'] == nullptr) {
-                    unUpdatedReverse[row-1][column-'A'] = new vector<pair<int,int>>();
-                }
-                unUpdatedReverse[row-1][column-'A']->push_back({row1-1, col1});
-            }
-        }
-
+        auto tmp = make_pair(row-1, column-'A');
+        recalculate(tmp, false);
+        
         return get(row, column);
     }
 };
